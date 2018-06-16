@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100);
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+#inicial{
+    margin-top: 56px;
+    background-image:url(img/splash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo, #texto_logo{
+    margin-top: 20%;
+    margin-bottom: 23%;
+    color: #fff;
+}
+
+#texto_logo{
+    padding-top: 50px;
+}
+
+#contato{
+    width:100%;
+    background:#3498db;
+    color:#fff;
+    padding: 30px 0;
+}
+
+#inicial, #maceio, #comite{
+    margin-bottom: 50px;
+}
+
+#maceio .cycle-slideshow img{
+    width: 100%;
+}
+
+#cbielaclo, #comite, #LocalDoEvento, #eventos, #inscricao, #maceio, #palestrantes, #datas_importantes, #infoGeral, #SBIE, #WIE, #CTD-IE, #Workshops, #JAIE, #Apps-Edu, #LACLO, #PPDIE, #Pontape, #programacao, #anais {
+    color: #888;
+}
+
+#cbielaclo, #localDoEvento, #inscricao, #palestrantes, #SBIE, #CTD-IE, #JAIE, #LACLO, #Pontape, #programacao{
+    background-color: rgba(236, 240, 241,0.5);
+}
+
+.btn, .form-control{
+    border-radius: 0px;
+}
+
+  /*IMAGENS DOS PALESTRANTES*/
+
+.palestrante {
+    margin-top: 70px;
+}
+
+.palestrante img{
+    width: 250px;
+    height: 250px;
+    border: 8px solid #dadada;
+}
+
+.palestrante p{
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#map-canvas {
+  width: 80%;
+  height: 400px;
+}
+
+
+@media (max-width: 767px) {
+    #logo{
+        margin-bottom: 0;
+    }
+    #texto_logo{
+        margin-top: 20px;
+        padding-top: 0;
+        text-align: center;
+    }
+}
