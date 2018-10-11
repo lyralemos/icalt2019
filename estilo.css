@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100);
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -20,12 +20,12 @@ body{
     margin: 30px;
 }
 
-strong{
-    font-size: 16pt;
-}
-
 p {
     text-align: justify;
+}
+
+ul, ol{
+    margin-left: 18px;
 }
 
 section{
@@ -47,7 +47,7 @@ section.odd{
 }
 
 #inicial{
-    background-image:url(img/splash.jpg);
+    background-image:url(img/splash2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
